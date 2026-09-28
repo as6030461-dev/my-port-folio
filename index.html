@@ -8,7 +8,7 @@
     <title>Aditya Kumar | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="enhance.css?v=4">
+    <link rel="stylesheet" href="enhance.css?v=5">
 </head>
 
 <body>
@@ -315,12 +315,21 @@
 
         <div class="hero-image">
 
-            <div class="profile-circle">
-
-                <img
-                    src="profile.jpeg"
-                    alt="Portrait of Aditya Kumar" loading="eager" fetchpriority="high">
-
+            <div class="profile-stage">
+                <span class="profile-aura" aria-hidden="true"></span>
+                <span class="profile-orbit profile-orbit--outer" aria-hidden="true"></span>
+                <span class="profile-orbit profile-orbit--inner" aria-hidden="true"></span>
+                <div class="profile-circle">
+                    <img
+                        src="profile.jpeg"
+                        alt="Portrait of Aditya Kumar" loading="eager" fetchpriority="high">
+                </div>
+                <div class="profile-badge profile-badge--top" aria-hidden="true">
+                    <span class="profile-badge-dot"></span> CREATIVE DEVELOPER
+                </div>
+                <div class="profile-badge profile-badge--bottom" aria-hidden="true">
+                    <span>3D</span> PORTFOLIO
+                </div>
             </div>
 
         </div>
@@ -671,27 +680,53 @@
         </h2>
 
 
-        <div class="education-card">
+        <div class="education-grid">
 
-            <div class="education-icon">
-                🎓
-            </div>
+            <article class="education-card">
 
-            <div>
+                <div class="education-icon" aria-hidden="true">
+                    <span class="education-glyph">🎓</span>
+                </div>
 
-                <h3>
-                    Diploma in Computer Science Engineering
-                </h3>
+                <div class="education-details">
+                    <span class="education-level">CURRENT STUDIES</span>
+                    <h3>
+                        Diploma in Computer Science Engineering
+                    </h3>
 
-                <p>
-                    Centurion University of Technology and Management
-                </p>
+                    <p>
+                        Centurion University of Technology and Management
+                    </p>
 
-                <p>
-                    Computer Science Engineering
-                </p>
+                    <p>
+                        Computer Science Engineering
+                    </p>
+                </div>
 
-            </div>
+            </article>
+
+            <article class="education-card">
+
+                <div class="education-icon" aria-hidden="true">
+                    <span class="education-glyph">📘</span>
+                </div>
+
+                <div class="education-details">
+                    <span class="education-level">10TH CLASS</span>
+                    <h3>
+                        10th Class — BSEB Board
+                    </h3>
+
+                    <p>
+                        Ishwari High School, Basant Saran
+                    </p>
+
+                    <p>
+                        BSEB Board · 62%
+                    </p>
+                </div>
+
+            </article>
 
         </div>
 
